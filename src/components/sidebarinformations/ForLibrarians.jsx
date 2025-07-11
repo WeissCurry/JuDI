@@ -20,7 +20,7 @@
             </p>
             <ul className="list-disc list-inside space-y-2 pl-4 mt-3 bg-gray-50 p-4 rounded-md">
                 <li><strong>Journal Title:</strong> JuDI: Jurnal Komedi</li>
-                <li><strong>ISSN:</strong> 2025-2026 (Online - Placeholder)</li>
+                <li><strong>ISSN:</strong> undefined</li>
                 <li><strong>Frequency:</strong> Biannually (April & October), or whenever we've collected enough academic trauma.</li>
                 <li><strong>Publisher:</strong> The Committee for Comedic Catharsis</li>
                 <li><strong>Access Model:</strong> Fully <strong>Open Access</strong>. Zero subscription fees. Your acquisitions budget can thank us later.</li>

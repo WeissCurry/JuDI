@@ -12,6 +12,7 @@ import ForAuthors from './components/sidebarinformations/ForAuthors';
 import ForLibrarians from './components/sidebarinformations/ForLibrarians';
 
 // pages
+import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import Archive from './pages/Archive';
 
@@ -63,9 +64,12 @@ function App() {
         <Routes>
           <Route element={<PageLayout />}>
 
-            <Route path="/" element={<ArticleList />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/archives" element={<Archive />} />
+            <Route path="/current" element={<ArticleList />} />
+
+
 
             {/* sidebar */}
             <Route path="/forreaders" element={<ForReaders />} />
