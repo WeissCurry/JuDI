@@ -6,7 +6,12 @@ import ArticleList from './components/ArticleList';
 import Navbar from './components/Navbar';
 import Logo from "../public/ideatecore_logo.jpeg";
 
+// sidebar
+import ForReaders from './components/sidebarinformations/ForReaders';
+import ForAuthors from './components/sidebarinformations/ForAuthors';
+import ForLibrarians from './components/sidebarinformations/ForLibrarians';
 
+// pages
 import AboutUs from './pages/AboutUs';
 import Archive from './pages/Archive';
 
@@ -23,9 +28,9 @@ const Sidebar = () => (
   <aside className="lg:w-[220px] md:w-1/3 p-4 bg-gray-50 border-l">
     <h3 className="font-bold text-lg mb-3">Information</h3>
     <ul className="space-y-2 text-blue-700">
-      <li><a href="#" className="hover:underline">For Readers</a></li>
-      <li><a href="#" className="hover:underline">For Authors</a></li>
-      <li><a href="#" className="hover:underline">For Librarians</a></li>
+      <li><a href="/forreaders" className="hover:underline">For Readers</a></li>
+      <li><a href="/forauthors" className="hover:underline">For Authors</a></li>
+      <li><a href="/forlibrarians" className="hover:underline">For Librarians</a></li>
     </ul>
   </aside>
 );
@@ -61,6 +66,12 @@ function App() {
             <Route path="/" element={<ArticleList />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/archives" element={<Archive />} />
+
+            {/* sidebar */}
+            <Route path="/forreaders" element={<ForReaders />} />
+            <Route path="/forauthors" element={<ForAuthors />} />
+            <Route path="/forlibrarians" element={<ForLibrarians />} />
+
           
           </Route>
         </Routes>

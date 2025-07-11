@@ -42,7 +42,7 @@ const AboutUs = () => {
                         </li>
                     </ul>
                     <p>
-                        <strong>JuDI: Jurnal Komedi</strong><br /> is published biannually (April and October) because even comedians need a deadline.
+                        <strong>JuDI: Jurnal Komedi</strong> is published biannually (<strong>April</strong> and <strong>October</strong>) because even comedians need a deadline.
                     </p>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const AboutUs = () => {
                 </h2>
                 <div className="text-gray-700 leading-relaxed space-y-4 text-justify">
                     <p>
-                        <strong>JuDI: Jurnal Komedi</strong>is committed to a stringent, albeit slightly unorthodox, single-blind peer-review process. Every submission is evaluated on its academic rigor <em>and</em> its ability to elicit a genuine chuckle, a knowing nod, or an existential sigh of recognition.
+                        <strong>JuDI: Jurnal Komedi</strong> is committed to a stringent, albeit slightly unorthodox, single-blind peer-review process. Every submission is evaluated on its academic rigor <em>and</em> its ability to elicit a genuine chuckle, a knowing nod, or an existential sigh of recognition.
                     </p>
                     <ol className="list-decimal list-inside space-y-2 pl-4">
                         <li>
