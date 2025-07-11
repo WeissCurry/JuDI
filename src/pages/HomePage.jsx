@@ -93,7 +93,7 @@ const HomePage = () => {
                     <p className="mt-3 text-lg text-gray-700 max-w-2xl mx-auto">
                         Your groundbreaking study on the physics of dropped toast or the sociology of Zoom meetings deserves to be published. We are now accepting submissions for our next issue.
                     </p>
-                    <a href="/for-authors" className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg">
+                    <a href="/forauthors" className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg">
                         Submit Your Paper
                     </a>
                 </section>
